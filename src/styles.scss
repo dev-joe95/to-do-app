@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+body{
+  button{
+    @media screen and (max-width: 900px) {
+      font-size: 0.7rem !important;
+    }
+  }
+  @media screen and (max-width: 900px) {
+    font-size: 0.7rem !important;
+  }
+}
+.my-container{
+  width:40%;
+  margin: auto;
+  @media screen and (max-width: 900px) {
+    width:90%;
+  }
+}
